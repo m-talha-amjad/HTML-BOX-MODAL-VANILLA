@@ -1,0 +1,120 @@
+body, h1, h2, h3, h4, p, ul, li, a, img, label, input {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+    list-style-type: none;
+	text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: "Open Sans",Arial,sans-serif;
+    line-height: 1.1;
+    color: #000;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+}
+a:hover, a:focus, a {
+    text-decoration: none;
+    color: #000;
+}
+p {
+    line-height: 1.5;
+    color: #000;
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.full {
+	width:100%;
+    float: left;
+}
+
+*, input[type="submit"] {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  caret-color: transparent;
+}
+::selection {
+  background: #e10803;
+}
+input, textarea {
+    caret-color: #e10803;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.full {
+    width: 100%;
+    float: left;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px,1px,1px,1px);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal!important;
+}
+.skip_to_main {
+    clip: rect(1px,1px,1px,1px);
+    position: absolute!important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    word-wrap: normal!important;
+}
+/*------------------
+    BOILER PALATE END
+--------------------*/
+/*------------------
+    
+--------------------*/
+div.cmodal{background-color: yellow;}
+
+
+/*------------------
+    
+--------------------*/
+/*------------------
+    RESPONSIVE
+--------------------*/
+@media (max-width: 768px){
+
+
+}
+
+/*------------------
+    RESPONSIVE
+--------------------*/
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+
+#myModal::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+#myModal {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/*#caption::-webkit-scrollbar {
+    display: none;
+}
+.offers_item::-webkit-scrollbar {
+    display: none;
+}*/
